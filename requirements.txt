@@ -1,0 +1,17 @@
+kagglehub 
+lightning
+matplotlib 
+numpy
+optuna
+pandas 
+scikit-learn 
+sklearn
+scipy
+seaborn 
+string
+torch 
+transformers
+tqdm
+time
+umap-learn 
+xgboost
