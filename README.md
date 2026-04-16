@@ -21,29 +21,50 @@ Source: DGA Dataset on Kaggle
 Download instructions:
 bash# kagglehub.dataset_download("gtkcyber/dga-dataset")
 
+<<<<<<< HEAD
 Project Structure
+=======
+
+## Project structure
+```
+project-root/
+|
+>>>>>>> 0f0dcdbaa020c221548e9b3009e13733602dea6a
 ├── problem_a/
-│   ├── autoencoder   
-│   ├── CNN
-│   ├── Logistic_Regression
-│   ├── transformer
-│   └── xgboost
+│   ├── autoencoder/   
+│   ├── CNN/
+│   ├── Logistic_Regression/
+│   ├── transformer/
+│   └── xgboost/
+|
 ├── problem_b/
+<<<<<<< HEAD
 │   └── svm
+=======
+│   └── svm/
+|
+>>>>>>> 0f0dcdbaa020c221548e9b3009e13733602dea6a
 ├── eda.ipynb
 ├── requirements.txt
 └── README.md
+```
 
 ## Setup
+<<<<<<< HEAD
 Prerequisites
 
+=======
+>>>>>>> 0f0dcdbaa020c221548e9b3009e13733602dea6a
 pip install -r requirements.txt
 
 Note: The Transformer model requires GPU infrastructure for inference within the
 sub-millisecond latency budget. All other models can run on CPU.
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0f0dcdbaa020c221548e9b3009e13733602dea6a
 ## Results Summary
 Sub-problem A (Binary)
 ModelAUC-ROCRecallF1P99 LatencyParametersLR – WBCE0.99770.94810.96840.622 ms100,001XGBoost – WBCE0.96430.78110.87230.972 ms200 treesCNN0.99890.98680.98881.371 ms854,705Transformer0.99880.98850.987214.72 ms132,084,482Autoencoder0.87380.81790.82830.099 ms627,815
@@ -65,7 +86,7 @@ Universal blind spot: nivdort (LOFO detection rate: 0%)
 - Latency benchmarks were not conducted on standardised hardware.
 - The Transformer requires dedicated GPU infrastructure for real-time inline DNS inspection.
 
-# Citation
+## Citation
 If you use this work, please cite the dataset:
 
 Givre C., "DGA Dataset," Kaggle, 2021.
