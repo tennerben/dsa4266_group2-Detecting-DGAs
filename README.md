@@ -25,7 +25,6 @@ bash# kagglehub.dataset_download("gtkcyber/dga-dataset")
 ```
 project-root/
 |
->>>>>>> 0f0dcdbaa020c221548e9b3009e13733602dea6a
 ├── problem_a/
 │   ├── autoencoder/   
 │   ├── CNN/
@@ -34,12 +33,7 @@ project-root/
 │   └── xgboost/
 |
 ├── problem_b/
-<<<<<<< HEAD
-│   └── svm
-=======
 │   └── svm/
-|
->>>>>>> 0f0dcdbaa020c221548e9b3009e13733602dea6a
 ├── eda.ipynb
 ├── requirements.txt
 └── README.md
