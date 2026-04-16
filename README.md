@@ -49,7 +49,14 @@ sub-millisecond latency budget. All other models can run on CPU.
 
 ## Results Summary
 Sub-problem A (Binary)
-ModelAUC-ROCRecallF1P99 LatencyParametersLR – WBCE0.99770.94810.96840.622 ms100,001XGBoost – WBCE0.96430.78110.87230.972 ms200 treesCNN0.99890.98680.98881.371 ms854,705Transformer0.99880.98850.987214.72 ms132,084,482Autoencoder0.87380.81790.82830.099 ms627,815
+```{markdown}
+|Model| AUC-ROC| Recall| F1| P99 Latency| Parameters|
+|LR – WBCE | 0.9977| 0.9481| 0.9684| 0.622 ms| 100,001|
+|XGBoost – WBCE| 0.9643| 0.7811| 0.8723 |0.972 ms| 200 trees|
+|CNN| 0.9989 |0.9868 |0.9888 |1.371 ms| 854,705|
+|Transformer| 0.9988| 0.9885| 0.9872| 14.72 ms| 132,084,482|
+|Autoencoder| 0.8738| 0.8179| 0.8283| 0.099 ms| 627,815|
+```
 Recommended deployment: Logistic Regression with Weighted BCE as the primary
 inline detector, optionally paired with a multi-class attribution layer.
 Sub-problem B (Multi-class)
